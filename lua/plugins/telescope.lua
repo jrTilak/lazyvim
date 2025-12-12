@@ -12,6 +12,10 @@ return {
       ".*/out/.*",
       ".*/coverage/.*",
       ".*/target/.*",
+      ".*/generated/.*",
+
+      -- Git
+      ".*/%.git/.*",
 
       -- Next.js
       ".*/%.next/.*",
