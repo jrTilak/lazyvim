@@ -16,7 +16,7 @@ return {
       -- Keep existing settings
       local filtered = opts.filesystem.filtered_items
 
-      -- Show hidden files including .env
+      -- Show hidden files (dotfiles)
       filtered.visible = true
       filtered.hide_dotfiles = false
       filtered.hide_gitignored = false
